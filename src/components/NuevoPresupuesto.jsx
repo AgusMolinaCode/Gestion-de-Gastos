@@ -22,7 +22,7 @@ const NuevoPresupuesto = ({presupuesto, setPresupuesto,setIsValidPresupuesto}) =
         <div className='campo'>
           <label htmlFor="" >Definir Presupuesto</label>
           <input 
-          type="number" 
+          type="text" 
           className='nuevo-presupuesto' 
           placeholder='Ingresa tu Presupuesto' 
           value={presupuesto} 
